@@ -12,3 +12,7 @@ app/cache/*
 # tuna_override nije namjenjen da bude u version controlu.
 # u njemu je password za bazu koja ce se koristiti.
 app/plugin/tuna_override.php
+
+#sublime project
+mrasp.sublime-workspace
+mrasp.sublime-project
