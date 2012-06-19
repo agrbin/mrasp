@@ -1,0 +1,3 @@
+ovdje css fajlovi.
+u /htdocs/index.php pod output/assign/__css je moguce stavit
+da se css fajl svaki puta slaze u html header

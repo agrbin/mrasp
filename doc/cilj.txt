@@ -1,0 +1,4 @@
+mobilnu verziju raspored.skole.hr aplikacije koja moze
+  - ulgoirati korisnika
+  - prikazati mu raspored sati
+  - prikazati mu event na koji klikne

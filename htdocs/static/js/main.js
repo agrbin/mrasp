@@ -1,0 +1,3 @@
+$(function() {
+  $('.first-focus').focus();
+});

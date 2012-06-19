@@ -1,0 +1,14 @@
+# ignore tmp and backup files
+.*.swp
+app/sql/backup/backup*.sql
+app/sql/raspored.sql
+
+# app cache folder ignoraj sve osim README fajla
+# taj README fajl sluzi da folder ne ostane prazan
+# (git radi sa fajlovima samo)
+app/cache/*
+!app/cache/README
+
+# tuna_override nije namjenjen da bude u version controlu.
+# u njemu je password za bazu koja ce se koristiti.
+app/plugin/tuna_override.php

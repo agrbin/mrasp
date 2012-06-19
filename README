@@ -1,0 +1,15 @@
+
+da bi se pokrenulo app/cache cijeli folder mora biti pisljiv od web servera.
+tamo ce se spremati fajla log.txt u kojoj pisu podatci o zadnjem pokretanju
+skripte, smarty templateovi i sl.
+
+chgrp www-data app/cache
+chmod g+w app/cache
+
+
+takodjer, tuna_override se moze koristiti za spojit se na neku drugu bazu
+
+chgrp www-data app/plugin/tuna_override.php
+chmod g+w app/plugin/tuna_override.php
+
+nesto
