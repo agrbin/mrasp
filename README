@@ -11,5 +11,3 @@ takodjer, tuna_override se moze koristiti za spojit se na neku drugu bazu
 
 chgrp www-data app/plugin/tuna_override.php
 chmod g+w app/plugin/tuna_override.php
-
-nesto
