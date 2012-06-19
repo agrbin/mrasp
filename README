@@ -21,4 +21,11 @@ url.rewrite-once = (
 
 
 
+primjer apache konfiguracije:
 
+RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^(.*)$ /~agrbin/knoge/index.php/$1 [L]
