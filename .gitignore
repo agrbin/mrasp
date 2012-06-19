@@ -13,6 +13,10 @@ app/cache/*
 # u njemu je password za bazu koja ce se koristiti.
 app/plugin/tuna_override.php
 
+# ako zelis drugu konfiguraciju, sva konfa je u index.php
+# ovako se moze index_override-at
+htdocs/index_override.php
+
 #sublime project
 mrasp.sublime-workspace
 mrasp.sublime-project

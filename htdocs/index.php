@@ -1,5 +1,10 @@
 <?php
 
+if (file_exists("index_override.php")) {
+  require "index_override.php";
+  exit;
+}
+
 require "/home/agrbin/share/moj/src/moj.php";
 define('HTTP_ROOT', 'http://p4.tel.fer.hr/~agrbin/mrasp');
 
@@ -17,7 +22,7 @@ $config = (array(
       "../app/model/"
     ),
     "require" => array(
-      "../app/plugin/tuna.php"
+      "../aapp/plugin/tuna.php"
     )
   ),
 
