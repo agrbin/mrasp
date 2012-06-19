@@ -22,7 +22,7 @@ $config = (array(
       "../app/model/"
     ),
     "require" => array(
-      "../aapp/plugin/tuna.php"
+      "../app/plugin/tuna.php"
     )
   ),
 

@@ -20,3 +20,6 @@ htdocs/index_override.php
 #sublime project
 mrasp.sublime-workspace
 mrasp.sublime-project
+
+#ignore htaccess
+htdocs/.htaccess
