@@ -1,4 +1,4 @@
-<?
+<?php
 
 class file_output implements output_if {
 

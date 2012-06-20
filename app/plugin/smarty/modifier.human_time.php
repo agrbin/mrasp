@@ -1,4 +1,4 @@
-<?
+<?php
 
 class _rasp_time_helper {
   

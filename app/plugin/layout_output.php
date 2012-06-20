@@ -1,4 +1,4 @@
-<?
+<?php
 
 class layout_output implements output_if {
 
