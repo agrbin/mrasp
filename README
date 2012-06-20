@@ -1,3 +1,6 @@
+TODO:
+  transformirati bazu na tunu
+
 
 da bi se pokrenulo app/cache cijeli folder mora biti pisljiv od web servera.
 tamo ce se spremati fajla log.txt u kojoj pisu podatci o zadnjem pokretanju
