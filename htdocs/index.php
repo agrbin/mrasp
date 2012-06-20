@@ -8,7 +8,9 @@ if (file_exists("index_override.php")) {
 require "/home/agrbin/share/moj/src/moj.php";
 define('HTTP_ROOT', 'http://p4.tel.fer.hr/~agrbin/mrasp');
 
-function app() {return app::get_instance();}
+if(!function_exists('app')){
+  function app() {return app::get_instance();}
+}
 
 chdir(implode("/",array_slice(explode("/", __FILE__), 0, 
 -1)));
@@ -106,13 +108,15 @@ $config = (array(
   )
 ));
 
-function out($ex) {
-  // ova provjera stoji ovdje da developeru ispise
-  // vise detalja o pogresci.
-  if (0 && S::role('Admin')) {
-    return (string) $ex;
-  } else {
-    return $ex->getMessage();
+if(!function_exists('app')){
+  function out($ex) {
+    // ova provjera stoji ovdje da developeru ispise
+    // vise detalja o pogresci.
+    if (0 && S::role('Admin')) {
+      return (string) $ex;
+    } else {
+      return $ex->getMessage();
+    }
   }
 }
 
