@@ -108,7 +108,7 @@ $config = (array(
   )
 ));
 
-if(!function_exists('app')){
+if(!function_exists('out')){
   function out($ex) {
     // ova provjera stoji ovdje da developeru ispise
     // vise detalja o pogresci.
